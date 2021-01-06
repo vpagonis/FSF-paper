@@ -4,9 +4,11 @@ This repository contains all the R scripts from the paper:
 
 
 **Simulating feldspar luminescence phenomena using R**
-by Vasilis Pagonis, Christoph Schmidt, Sebastian Kreutzer**
 
-**Submitted to Journal of Luminescence**
+
+by Vasilis Pagonis, Christoph Schmidt, Sebastian Kreutzer
+
+**Submitted to the Journal of Luminescence**
 
 **January 2021**
 
@@ -15,7 +17,9 @@ __________________________________
 **HOW THE R SCRIPTS ARE ORGANIZED**
 
 The repository contains the 13 R scripts which were used to rpoduce the figures in the paper.
-These scripts are self contained and ready to run. 
+
+These scripts are self contained and ready to run.
+
 The scripts use the R file containing the FSF:
 
 - Functions_FSFpaper.R -
@@ -38,6 +42,7 @@ _ph300s0.asc_
 
 
 which contains the TSL data analyzed in Figure 14.
+
 These data files  be placed in the appropriate working directory.
 __________________________________
 
