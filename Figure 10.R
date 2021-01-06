@@ -35,7 +35,7 @@ distr_afterTLPH30 <- heatAt(Tph, tph, E, s, rprimes,distr=distr_afterTstop)
 #lines(rprimes,distr_afterTLPH30)
 TL3 <- stimTL(temps, E, s, rho, rprimes, distr_afterTLPH30)  
 
-## Example #4: CW-IRSL excitation for 10 s, then measure TL
+## Example #4: CW-IRSL excitation for 50 s, then measure TL
 timesCW <- 1:50
 distr_afterCW10 <- CWfortimeT(max(timesCW), rho, rprimes, A)
 TL4 <- stimTL(temps, E, s, rho, rprimes, distr_afterCW10) 
