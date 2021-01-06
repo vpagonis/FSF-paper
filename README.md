@@ -22,11 +22,11 @@ These scripts are self contained and ready to run.
 
 The scripts use the R file containing the FSF:
 
-- Functions_FSFpaper.R -
+- Functions_FSFpaper.R 
 
 The FSF are loaded at the beginning of the scripts, with the command:
 
-- source("Functions_FSFpaper.R") -
+- source("Functions_FSFpaper.R") 
 __________________________________
 
 **DATA FILES USED BY THE R CODES**
