@@ -16,7 +16,7 @@ by Vasilis Pagonis, Christoph Schmidt, Sebastian Kreutzer
 __________________________________
 **HOW THE R SCRIPTS ARE ORGANIZED**
 
-The repository contains the 13 R scripts which were used to rpoduce the figures in the paper.
+The repository contains the 13 R scripts which were used to produce the figures in the paper.
 
 These scripts are self contained and ready to run.
 
@@ -35,13 +35,14 @@ The folders  contains also two data files (.txt or .asc format):
 
 _ph300s0IR.asc_
 
-which contains the CW-IRSL data analyzed in Figure 13.
+which contains the CW-IRSL data analyzed in Figure 13,
+
 and the file
 
 _ph300s0.asc_
 
 
-which contains the TSL data analyzed in Figure 14.
+which contains the TL data analyzed in Figure 14.
 
 These data files  be placed in the appropriate working directory.
 __________________________________
