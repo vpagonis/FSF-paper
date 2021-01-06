@@ -26,8 +26,13 @@ __________________________________
 
 **DATA FILES USED BY THE R CODES**
 
-The folders  contains also some data files (.txt or .asc format):
-_lbodata.txt_
+The folders  contains also two data files (.txt or .asc format):
+
+_ph300s0IR.asc_
+
+which contains the CW-IRSL data analyzed in Figure 13.
+and the file
+
 _lbodata.txt_
 
 These data files are used by some of the R scripts, so they should  be placed in the appropriate working directory.
