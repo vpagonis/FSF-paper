@@ -1,4 +1,4 @@
-# FSF-paper
+# FSF-paper - supplementing material
 
 This repository contains all the R scripts from the paper:
 
