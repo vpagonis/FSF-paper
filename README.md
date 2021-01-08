@@ -1,4 +1,4 @@
-# FSF-paper - supplementing material
+# FSF-paper - supplementing material [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4429270.svg)](https://doi.org/10.5281/zenodo.4429270)
 
 This repository contains all the R scripts from the paper:
 
