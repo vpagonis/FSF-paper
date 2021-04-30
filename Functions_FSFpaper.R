@@ -319,7 +319,7 @@ irradandThermalfortimeT <- function(Tirr, tirr, E, s, rho, rprimes, D0, Ddot, di
   ## calculate new distribution
   for (i in 1:length(tirr)) {
     m[, i] <-
-      distr * (Ddot * rprimes / (D0 * Peff + Ddot[1])) * 
+      distr * (Ddot  / (D0 * Peff + Ddot[1])) * 
       (1 - exp(-(Ddot[1] / D0[1] + Peff) * tirr[i]))
   }
   m
@@ -368,7 +368,7 @@ irradatsometemp <- function(Tirr, tirr, E, s, rho, rprimes, D0, Ddot, distr = NU
   for (i in 1:length(Tirr)) {
    Peff <- (1 / (1 / s[1] + 1 / seff)) * exp(-E[1] / (8.617e-5 * Tirr[i]))
    m[,i] <- distr *
-      (Ddot[1] * rprimes / (D0[1] * Peff + Ddot[1])) * 
+      (Ddot[1]  / (D0[1] * Peff + Ddot[1])) * 
      (1 - exp(-(Ddot[1] / D0[1] + Peff) * tirr[1]))
   }
   m
