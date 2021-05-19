@@ -6,9 +6,9 @@ This repository contains all the R scripts from the paper:
 
 by Vasilis Pagonis, Christoph Schmidt, Sebastian Kreutzer
 
-**Submitted to the Journal of Luminescence**
+**Journal of Luminescence 235 (2021) 117999**
 
-**January 2021**
+**February 2021**
 
 
 __________________________________
